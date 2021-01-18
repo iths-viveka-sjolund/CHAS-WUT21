@@ -1,0 +1,253 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+ }
+ 
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    background-color: rgb(41, 17, 18);
+    display: flex;
+    justify-content: flex-end;
+    height: 80px;
+}
+
+nav a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    padding: 2rem;
+    transition: color 0.5s;   
+}
+
+nav a:hover{
+    color: rgb(235, 15, 187);
+}
+
+h4{
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-family: 'DM Serif Text', serif;
+}
+
+.kompetenser{
+    height: 600px;
+    background-image: url(img/hero-viveka-sjolund@1500px.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+} 
+
+
+
+.kompetenser article{
+    margin-left: 60px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    
+}
+.kompetenser li{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    line-height: 3rem;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    padding: 0 0 0 20px;
+}
+
+
+/* ----------- ARBETE --------- */
+
+
+
+.arbete{
+    height: 30%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.arbete article {
+    width: 400px;
+    margin-right: 50px;
+    padding: 50px;
+}
+
+/* ----------- UTBILDNING --------- */
+
+.utbildning{
+    height: 400px;
+    background-color: rgb(117, 117, 117);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.utbildning article{
+    padding: 50px;
+}
+
+
+
+/* ----------- KONTAKT --------- */
+
+.kontakt{
+    background-color: white;
+    padding: 2.5rem;
+    margin-top: 50px;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;  
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+}
+    
+label {
+    margin: 20px 0px;
+}
+#email, #name{
+    background-color: rgb(206, 206, 206);
+    border-radius: 3px;
+    border-style: none;
+    width: 300px;
+    padding: 10px;
+}
+
+#message-ruta{
+    background-color: rgb(237, 230, 34);
+    color: #000000;
+    border-radius: 3px;
+    width: 300px;
+    height: 130px;
+    padding: 10px;
+    margin-top: 0;
+    border-style: none;
+}
+
+.myButton{
+    margin: 30px 0;
+    background-color:#ffffff;
+    border-radius:3px;
+    border:2px solid rgb(206, 206, 206);
+    display:inline-block;
+    color:#000000;
+    font-size:12px;
+    font-weight: bold;
+    text-align: center;
+    padding:12px 40px;
+    text-decoration:none;  
+    transition: background-color 0.3s;
+}  
+
+
+.myButton:hover{
+    background-color:  rgb(235, 84, 15)
+}
+
+
+
+/* ----------- OM MIG --------- */
+
+
+.om-mig{
+    height: 700px;
+    background-image: url(img/om_BW2@1500px.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+} 
+
+.om-mig article {
+    /* background-color: #ffffff; */
+    padding: 20px;
+    margin-right: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+h1 {
+    font-family: 'DM Serif Text', serif;
+    font-size: 40px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+h2 {
+    font-family: 'DM Serif Text', serif;
+    margin-top: 0px;
+}
+
+
+.barock {
+    display: flex;
+    margin: 50px;
+}
+
+
+.barock-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px;
+
+}
+
+.footer {
+    text-align: center;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
