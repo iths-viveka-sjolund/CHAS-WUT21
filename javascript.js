@@ -1,4 +1,4 @@
-// function sendFeedback(event){
-//     event.preventDefault()
+function sendFeedback(event){
+    event.preventDefault()
 
-// }
+}
