@@ -11,8 +11,10 @@ nav{
     background-color: rgb(41, 17, 18);
     display: flex;
     justify-content: flex-end;
-    height: 80px;
+    padding-right: 5%;
 }
+/* BYT TILL ODEFINIERAD HÖJD 
+Possistion absolute - text över bild.*/
 
 nav a{
     text-decoration: none;
@@ -33,16 +35,15 @@ h4{
 }
 
 .kompetenser{
-    height: 600px;
-    background-image: url(img/hero-viveka-sjolund@1500px.jpg);
+    background-image: url(img/hero-viveka-sjolund@1500px.jpg); max-width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     justify-content: flex-start;
+    padding: 15%;
 } 
 
 .kompetenser article{
-    margin-left: 60px; 
     display: flex;
     justify-content: center;
     align-items: center;  
@@ -70,19 +71,28 @@ h4{
 
 .arbete article {
     width: 50%;
-    padding: 50px;
+    padding: 5%;
+}
+
+.arbete ul {
+    padding: 0;
+
+}
+
+li {
+    list-style: none;
 }
 
 /* ----------- UTBILDNING --------- */
 
 .utbildning{
-    height: 400px;
     background-color: rgb(117, 117, 117);
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 10%;
 }
 
 .utbildning article{
@@ -154,27 +164,26 @@ label {
 
 
 .om-mig{
-    height: 700px;
     background-image: url(img/om_BW2@1500px.jpg);
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     flex-direction: row-reverse;
-    align-items: center;
-    
+    padding: 8%;
 } 
 
 .om-mig article {
-    /* background-color: #ffffff; */
     padding: 20px;
-    margin-right: 140px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 400px;
+    width: 500px;
     font-size: 20px;
     border-radius: 5px;
 }
+
+
+
 h1 {
     font-family: 'DM Serif Text', serif;
     font-size: 40px;
@@ -187,6 +196,7 @@ h2 {
     font-family: 'DM Serif Text', serif;
     margin-top: 0px;
 }
+
 
 
 .barock {
