@@ -8,7 +8,7 @@ body {
 }
 
 nav {
-    background-color: palevioletred;
+    background-color: #964560;
     display: flex;
     justify-content: flex-end;
     padding-right: 5%;
@@ -47,15 +47,14 @@ h4 {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 a:focus {
     border: 2px solid red;
 }
 
-a:visited { 
-    color: rgb(255, 255, 255);
-}
+
 
 ul {
     padding: 0;
@@ -71,24 +70,29 @@ li {
     background-image: url(img/hero-viveka-sjolund@1500px.jpg); max-width: 100%;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: white;
     display: flex;
-    justify-content: flex-start;
-    padding: 15%;
+    justify-content: flex-start;  
 } 
 
 .kompetenser article {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10%;
 }
 
 .kompetenser li {
     list-style: none;
     font-family: 'DM Serif Text', serif;
-    color: rgb(252, 187, 209);
+    color: rgb(255, 255, 255);
+    background-color: grey;
+    padding: 10px 0 10px 20px;
+    margin: 5%;
     line-height: 150%;
     font-size: 30px;
     letter-spacing: 2px;
+    border-radius: 10px;
 }
 
 .kompetenser img {
@@ -116,7 +120,7 @@ li {
     justify-content: center;
     align-items: center;
     padding: 5%;
-    border-top: 2px solid palevioletred;
+    border-top: 2px solid #964560;
 }
 
 .logos img {
@@ -127,7 +131,7 @@ li {
 /* ----------- UTBILDNING --------- */
 
 .utbildning {
-    background-color:palevioletred;
+    background-color:#964560;
     color: white;
     display: flex;
     flex-direction: column;
@@ -254,6 +258,11 @@ footer p {
     color: #ffffff;
 }
 
+footer a {
+    font-weight: bold;
+    font-size: 20px;
+}
+
 
 @media only screen and (max-width: 600px) {
 
@@ -274,13 +283,16 @@ nav a {
     padding: 0;
 }
 
+.kompetenser article {
+    padding: 0;
+}
+
 .kompetenser img {
     display: block;
     width: 100%;
 }
 
 .kompetenser li {
-    color: palevioletred;
     font-size: 20px;
     text-align: center;
 
@@ -327,6 +339,10 @@ nav a {
 
 footer {
     flex-direction: column;
+}
+
+a:visited { 
+    color: rgb(255, 255, 255);
 }
 
 /* OM MIG */
