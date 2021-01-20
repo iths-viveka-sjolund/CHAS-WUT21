@@ -208,7 +208,7 @@ label:focus-within {
 /* ----------- OM MIG --------- */
 
 
-.om-mig{
+.om-mig {
     background-image: url(img/om_BW2@1500px.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -242,7 +242,7 @@ label:focus-within {
     padding: 20px;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -250,7 +250,7 @@ footer{
     background-color: rgb(96, 96, 96);
 }
 
-footer p{
+footer p {
     padding: 30px;
     color: #ffffff;
 }
@@ -258,28 +258,33 @@ footer p{
 
 @media only screen and (max-width: 600px) {
 
-nav{
+nav {
     padding-right: none;
     justify-content: center;
     align-items: center;
 }
 
-nav a{
+nav a {
     padding: 1rem;
 }
 
-.kompetenser{
+.kompetenser {
     background-image: none;
+    flex-direction: column;
     align-items: center;
+    padding: 0;
 }
 
 .kompetenser img {
     display: block;
+    width: 100%;
 }
 
-.kompetenser li{
-    color: rgb(252, 187, 209);
+.kompetenser li {
+    color: palevioletred;
     font-size: 20px;
+    text-align: center;
+
 }
 
 
@@ -330,20 +335,35 @@ footer{
 .om-mig {
     background-image: none;
     flex-direction: column;
-    padding: 3px;
+    padding: 0;
 }
 
 .om-mig img {
     display: block;
     align-self: center;
+    width: 100%;
 }
 
 .om-mig article {
-    padding: 0;
     width: auto;
     align-self: auto;
 }
 
+/* KONTAKT */
+
+.kontakt{
+    flex-direction: column;
+    margin: 0;
+    padding: 1rem;
+}
+
+#email, #name{
+    width: 100%;
+}
+
+#message-ruta{
+    width: 100%;
+}
 }
 
 
