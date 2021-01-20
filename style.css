@@ -76,8 +76,7 @@ li {
 .kompetenser article{
     display: flex;
     justify-content: center;
-    align-items: center;  
-    
+    align-items: center;
 }
 
 .kompetenser li{
@@ -207,6 +206,10 @@ label {
     padding: 10%;
 } 
 
+.om-mig img {
+    display: none;
+}
+
 .om-mig article {
     padding: 20px;
     display: flex;
@@ -242,7 +245,93 @@ footer p{
 }
 
 
+@media only screen and (max-width: 600px) {
 
+nav{
+    padding-right: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a{
+    padding: 1rem;
+}
+
+.kompetenser{
+    background-image: url(img/hero-viveka-sjolund@300px.jpg);   
+    display: flex;
+    justify-content: flex-start;
+} 
+
+.kompetenser li{
+    color: rgb(252, 187, 209);
+    font-size: 20px;
+}
+
+
+.arbete{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.arbete article {
+    width: 90%;
+}
+
+.arbete img {
+    margin-bottom: 20px;
+}
+
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    border-top: 2px solid palevioletred;
+}
+
+.logos img{
+    width: 50%;
+    padding: 20px;
+}
+
+.utbildning{
+    text-align: left;
+}
+
+.utbildning article{
+    padding: 10px;
+}
+
+footer{
+    flex-direction: column;
+}
+
+/* OM MIG */
+
+.om-mig {
+    background-image: none;
+    flex-direction: column;
+    padding: 3px;
+}
+
+.om-mig img {
+    display: block;
+    align-self: center;
+}
+
+.om-mig article {
+    padding: 0;
+    width: auto;
+    align-self: auto;
+}
+
+}
 
 
 
