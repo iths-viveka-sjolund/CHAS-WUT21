@@ -50,6 +50,10 @@ a {
     text-decoration: none;
 }
 
+a:focus {
+    border: 2px solid red;
+}
+
 a:visited { 
     color: rgb(255, 255, 255);
 }
@@ -86,6 +90,10 @@ li {
     line-height: 150%;
     font-size: 30px;
     letter-spacing: 2px;
+}
+
+.kompetenser img {
+    display: none;
 }
 
 /* ----------- ARBETE --------- */
@@ -192,6 +200,9 @@ label {
     background-color: palevioletred;
 }
 
+label:focus-within {
+    border: solid 3px  red;
+  }
 
 
 /* ----------- OM MIG --------- */
@@ -258,10 +269,13 @@ nav a{
 }
 
 .kompetenser{
-    background-image: url(img/hero-viveka-sjolund@300px.jpg);   
-    display: flex;
-    justify-content: flex-start;
-} 
+    background-image: none;
+    align-items: center;
+}
+
+.kompetenser img {
+    display: block;
+}
 
 .kompetenser li{
     color: rgb(252, 187, 209);
@@ -273,12 +287,11 @@ nav a{
     background-color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center; 
 }
 
 .arbete article {
     width: 90%;
+    padding: 0%;
 }
 
 .arbete img {
