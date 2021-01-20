@@ -2,20 +2,19 @@
     box-sizing: border-box;
  }
  
-body{
+body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 
-nav{
+nav {
     background-color: palevioletred;
     display: flex;
     justify-content: flex-end;
     padding-right: 5%;
 }
-/* Possistion absolute - text över bild.*/
 
-nav a{
+nav a {
     text-decoration: none;
     color:white;
     font-weight: bold;
@@ -23,7 +22,7 @@ nav a{
     transition: color 0.5s;   
 }
 
-nav a:hover{
+nav a:hover {
     color: rgb(55, 28, 37);
 }
 
@@ -40,7 +39,7 @@ h2 {
     margin-top: 0px;
 }
 
-h4{
+h4 {
     margin-bottom: 5px;
     margin-top: 15px;
     font-family: 'DM Serif Text', serif;
@@ -68,7 +67,7 @@ li {
 
 /* ----------- HERO --------- */
 
-.kompetenser{
+.kompetenser {
     background-image: url(img/hero-viveka-sjolund@1500px.jpg); max-width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -77,13 +76,13 @@ li {
     padding: 15%;
 } 
 
-.kompetenser article{
+.kompetenser article {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.kompetenser li{
+.kompetenser li {
     list-style: none;
     font-family: 'DM Serif Text', serif;
     color: rgb(252, 187, 209);
@@ -99,7 +98,7 @@ li {
 /* ----------- ARBETE --------- */
 
 
-.arbete{
+.arbete {
     background-color: white;
     display: flex;
     justify-content: center;
@@ -120,14 +119,14 @@ li {
     border-top: 2px solid palevioletred;
 }
 
-.logos img{
+.logos img {
     width: 15%;
     padding: 20px;
 }
 
 /* ----------- UTBILDNING --------- */
 
-.utbildning{
+.utbildning {
     background-color:palevioletred;
     color: white;
     display: flex;
@@ -137,13 +136,13 @@ li {
     padding: 10%;
 }
 
-.utbildning article{
+.utbildning article {
     padding: 50px;
 }
 
 /* ----------- KONTAKT --------- */
 
-.kontakt{
+.kontakt {
     background-color: white;
     padding: 2.5rem;
     margin-top: 50px;
@@ -162,7 +161,7 @@ label {
     margin: 30px 0px 15px;
 }
 
-#email, #name{
+#email, #name {
     background-color: rgb(206, 206, 206);
     border-radius: 3px;
     border-style: none;
@@ -170,7 +169,7 @@ label {
     padding: 20px;
 }
 
-#message-ruta{
+#message-ruta {
     background-color: rgb(206, 206, 206);
     color: #000000;
     border-radius: 3px;
@@ -181,7 +180,7 @@ label {
     border-style: none;
 }
 
-.myButton{
+.myButton {
     margin: 30px 0;
     background-color:#ffffff;
     border-radius:3px;
@@ -196,7 +195,7 @@ label {
     transition: background-color 0.3s;
 }  
 
-.myButton:hover{
+.myButton:hover {
     background-color: palevioletred;
 }
 
@@ -288,7 +287,7 @@ nav a {
 }
 
 
-.arbete{
+.arbete {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -313,20 +312,20 @@ nav a {
     border-top: 2px solid palevioletred;
 }
 
-.logos img{
+.logos img {
     width: 50%;
     padding: 20px;
 }
 
-.utbildning{
+.utbildning {
     text-align: left;
 }
 
-.utbildning article{
+.utbildning article {
     padding: 10px;
 }
 
-footer{
+footer {
     flex-direction: column;
 }
 
@@ -351,17 +350,17 @@ footer{
 
 /* KONTAKT */
 
-.kontakt{
+.kontakt {
     flex-direction: column;
     margin: 0;
     padding: 1rem;
 }
 
-#email, #name{
+#email, #name {
     width: 100%;
 }
 
-#message-ruta{
+#message-ruta {
     width: 100%;
 }
 }
