@@ -227,9 +227,10 @@ label:focus-within {
   border: solid 3px red;
 }
 
-/* #thankyou p {
-  color: green;
-} */
+.namnText,
+.emailText {
+  color: red;
+}
 
 /* ----------- OM MIG --------- */
 

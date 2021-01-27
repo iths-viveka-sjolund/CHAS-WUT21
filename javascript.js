@@ -21,7 +21,7 @@ function validateForm(event) {
     return;
   }
   if (email.value.indexOf('@') == -1 || email.value.indexOf('.') == -1) {
-    textEmail.innerText = 'Du har inte skrivit en e-postadress';
+    textEmail.innerText = 'Ange en giltig e-postadress';
     formValidated = false;
     return;
   }
@@ -33,16 +33,6 @@ function validateForm(event) {
 
 function sendFeedback(){
       var thankYouHeader = document.getElementById("thankYou");
-   thankYouHeader.innerText = "Tack" + " " + namn.value + ", " +"ditt meddelande har skickats.";
+   thankYouHeader.innerText = 'Tack' + ' ' + namn.value + ', ' +'ditt meddelande har skickats.';
 
 }
-
-// function sendFeedback(event){
-//     event.preventDefault()
-    
-//     var formData = event.srcElement;
-
-//    var thankYouHeader = document.getElementById("thankYou");
-//    thankYouHeader.innerText = "Tack" + " " + formData.name.value + ", " +"ditt meddelande har skickats.";
-
-// }
