@@ -1,414 +1,398 @@
-*, *:before, *:after {
-    box-sizing: border-box;
- }
- 
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
 body {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+#linktomain {
+  color: #964560;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 0;
+}
+
+#linktomain:focus {
+  color: rgb(1, 154, 1);
+  height: 100px;
 }
 
 nav {
-    background-color: #964560;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 5%;
+  background-color: #964560;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 5%;
 }
 
 nav a {
-    text-decoration: none;
-    color:white;
-    font-weight: bold;
-    padding: 2rem;
-    transition: color 0.5s;   
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 2rem;
+  transition: color 0.5s;
 }
 
 nav a:hover {
-    color: rgb(55, 28, 37);
+  color: rgb(55, 28, 37);
 }
 
 h1 {
-    font-family: 'DM Serif Text', serif;
-    font-size: 40px;
-    font-weight: lighter;
-    font-style: italic;
-    margin-top: 5px;
+  font-family: "DM Serif Text", serif;
+  font-size: 40px;
+  font-weight: lighter;
+  margin-top: 5px;
 }
 
 h2 {
-    font-family: 'DM Serif Text', serif;
-    margin-top: 0px;
+  font-family: "DM Serif Text", serif;
+  margin-top: 0px;
 }
 
 h4 {
-    margin-bottom: 5px;
-    margin-top: 15px;
-    font-family: 'DM Serif Text', serif;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  font-family: "DM Serif Text", serif;
 }
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
-
-a:focus {
-    border: 2px solid red;
+a:active {
+  background-color: darkblue;
 }
-
-
 
 ul {
-    padding: 0;
+  padding: 0;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 /* ----------- HERO --------- */
 
 .kompetenser {
-    background-image: url(img/hero-viveka-sjolund@1500px.jpg); max-width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: white;
-    display: flex;
-    justify-content: flex-start;  
-} 
+  background-image: url(img/hero-viveka-sjolund@1500px.jpg);
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+}
 
 .kompetenser article {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
 }
 
 .kompetenser li {
-    list-style: none;
-    font-family: 'DM Serif Text', serif;
-    color: rgb(255, 255, 255);
-    background-color: grey;
-    padding: 10px 0 10px 20px;
-    margin: 5%;
-    line-height: 150%;
-    font-size: 30px;
-    letter-spacing: 2px;
-    border-radius: 10px;
+  list-style: none;
+  font-family: "DM Serif Text", serif;
+  color: rgb(255, 255, 255);
+  background-color: grey;
+  padding: 10px 0 10px 20px;
+  margin: 5%;
+  line-height: 150%;
+  font-size: 30px;
+  letter-spacing: 2px;
+  border-radius: 10px;
 }
 
 .kompetenser img {
-    display: none;
+  display: none;
 }
 
 /* ----------- ARBETE --------- */
 
-
 .arbete {
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .arbete article {
-    width: 50%;
-    padding: 5% 5% 5% 0;
+  width: 50%;
+  padding: 5% 5% 5% 0;
 }
 
 .logos {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 5%;
-    border-top: 2px solid #964560;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  border-top: 2px solid #964560;
 }
 
 .logos img {
-    width: 15%;
-    padding: 20px;
+  width: 15%;
+  padding: 20px;
 }
 
 /* ----------- UTBILDNING --------- */
 
 .utbildning {
-    background-color:#964560;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 10%;
+  background-color: #964560;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10%;
 }
 
 .utbildning article {
-    padding: 50px;
+  padding: 50px;
 }
 
 /* ----------- KONTAKT --------- */
 
 .kontakt {
-    background-color: white;
-    padding: 2.5rem;
-    margin-top: 50px;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;  
+  background-color: white;
+  padding: 2.5rem;
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    
-}
-    
-label {
-    margin: 30px 0px 15px;
+  display: flex;
+  flex-direction: column;
 }
 
-#email, #name {
-    background-color: rgb(206, 206, 206);
-    border-radius: 3px;
-    border-style: none;
-    width: 400px;
-    padding: 20px;
+label {
+  margin: 30px 0px 15px;
+}
+
+#email,
+#name {
+  background-color: rgb(206, 206, 206);
+  border-radius: 3px;
+  border-style: none;
+  width: 400px;
+  padding: 20px;
 }
 
 #message-ruta {
-    background-color: rgb(206, 206, 206);
-    color: #000000;
-    border-radius: 3px;
-    width: 400px;
-    height: 130px;
-    padding: 10px;
-    margin-top: 0;
-    border-style: none;
+  background-color: rgb(206, 206, 206);
+  color: #000000;
+  border-radius: 3px;
+  width: 400px;
+  height: 130px;
+  padding: 10px;
+  margin-top: 0;
+  border-style: none;
 }
 
 .myButton {
-    margin: 30px 0;
-    background-color:#ffffff;
-    border-radius:3px;
-    border:2px solid rgb(206, 206, 206);
-    display:inline-block;
-    color:#000000;
-    font-size:12px;
-    font-weight: bold;
-    text-align: center;
-    padding:12px 40px;
-    text-decoration:none;  
-    transition: background-color 0.3s;
-}  
+  margin: 30px 0;
+  background-color: #ffffff;
+  border-radius: 3px;
+  border: 2px solid rgb(206, 206, 206);
+  display: inline-block;
+  color: #000000;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px 40px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+#email:focus {
+  background-color: rgb(146, 146, 167);
+}
+
+#name:focus {
+  background-color: rgb(146, 146, 167);
+}
+
+#message-ruta:focus {
+  background-color: rgb(146, 146, 167);
+}
 
 .myButton:hover {
-    background-color: palevioletred;
+  background-color: palevioletred;
 }
 
 label:focus-within {
-    border: solid 3px  red;
-  }
-
+  border: solid 3px red;
+}
 
 /* ----------- OM MIG --------- */
 
-
 .om-mig {
-    background-image: url(img/om_BW2@1500px.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    flex-direction: row-reverse;
-    padding: 10%;
-} 
+  background-image: url(img/om_BW2@1500px.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 10%;
+}
 
 .om-mig img {
-    display: none;
+  display: none;
 }
 
 .om-mig article {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 500px;
-    border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  border-radius: 5px;
 }
 
 .bilder {
-    width: 100%;
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .bilder img {
-    padding: 20px;
+  padding: 20px;
 }
 
 footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
-    background-color: rgb(96, 96, 96);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: rgb(96, 96, 96);
 }
 
 footer p {
-    padding: 30px;
-    color: #ffffff;
+  padding: 30px;
+  color: #ffffff;
 }
 
 footer a {
-    font-weight: bold;
-    font-size: 20px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
-
 @media only screen and (max-width: 600px) {
-
-nav {
+  nav {
     padding-right: none;
     justify-content: center;
     align-items: center;
-}
+  }
 
-nav a {
+  nav a {
     padding: 1rem;
-}
+  }
 
-.kompetenser {
+  .kompetenser {
     background-image: none;
     flex-direction: column;
     align-items: center;
     padding: 0;
-}
+  }
 
-.kompetenser article {
+  .kompetenser article {
     padding: 0;
-}
+  }
 
-.kompetenser img {
+  .kompetenser img {
     display: block;
     width: 100%;
-}
+  }
 
-.kompetenser li {
+  .kompetenser li {
     font-size: 20px;
     text-align: center;
+  }
 
-}
-
-
-.arbete {
+  .arbete {
     background-color: white;
     display: flex;
     flex-direction: column;
-}
+  }
 
-.arbete article {
+  .arbete article {
     width: 90%;
     padding: 0%;
-}
+  }
 
-.arbete img {
+  .arbete img {
     margin-bottom: 20px;
-}
+  }
 
-
-.logos {
+  .logos {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 5%;
     border-top: 2px solid palevioletred;
-}
+  }
 
-.logos img {
+  .logos img {
     width: 50%;
     padding: 20px;
-}
+  }
 
-.utbildning {
+  .utbildning {
     text-align: left;
-}
+  }
 
-.utbildning article {
+  .utbildning article {
     padding: 10px;
-}
+  }
 
-footer {
+  footer {
     flex-direction: column;
-}
+  }
 
-a:visited { 
+  a:visited {
     color: rgb(255, 255, 255);
-}
+  }
 
-/* OM MIG */
+  /* OM MIG */
 
-.om-mig {
+  .om-mig {
     background-image: none;
     flex-direction: column;
     padding: 0;
-}
+  }
 
-.om-mig img {
+  .om-mig img {
     display: block;
     align-self: center;
     width: 100%;
-}
+  }
 
-.om-mig article {
+  .om-mig article {
     width: auto;
     align-self: auto;
-}
+  }
 
-/* KONTAKT */
+  /* KONTAKT */
 
-.kontakt {
+  .kontakt {
     flex-direction: column;
     margin: 0;
     padding: 1rem;
-}
+  }
 
-#email, #name {
+  #email,
+  #name {
     width: 100%;
-}
+  }
 
-#message-ruta {
+  #message-ruta {
     width: 100%;
+  }
 }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

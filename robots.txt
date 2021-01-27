@@ -1,0 +1,9 @@
+# Google
+User-agent: Googlebot
+Disallow: /admin/
+
+
+# Bing
+User-agent: msnbot
+Crawl-delay: 120
+Disallow: //
