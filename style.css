@@ -171,8 +171,8 @@ label {
   margin: 30px 0px 15px;
 }
 
-#email,
-#name {
+.email,
+.namn {
   background-color: rgb(206, 206, 206);
   border-radius: 3px;
   border-style: none;
@@ -227,11 +227,9 @@ label:focus-within {
   border: solid 3px red;
 }
 
-#thankyou p {
-  height: 40px;
-  width: 40px;
-  margin: 0;
-}
+/* #thankyou p {
+  color: green;
+} */
 
 /* ----------- OM MIG --------- */
 
