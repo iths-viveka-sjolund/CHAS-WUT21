@@ -34,6 +34,7 @@ nav a {
   font-weight: bold;
   padding: 30px;
   transition: color 0.5s;
+  cursor: pointer;
 }
 
 nav a:hover {
@@ -203,6 +204,7 @@ label {
   padding: 12px 40px;
   text-decoration: none;
   transition: background-color 0.3s;
+  cursor: pointer;
 }
 
 #email:focus {
@@ -223,6 +225,12 @@ label {
 
 label:focus-within {
   border: solid 3px red;
+}
+
+#thankyou p {
+  height: 40px;
+  width: 40px;
+  margin: 0;
 }
 
 /* ----------- OM MIG --------- */
@@ -283,6 +291,7 @@ footer p {
 footer a {
   font-weight: bold;
   font-size: 20px;
+  cursor: pointer;
 }
 
 @media (max-width: 576px) {
