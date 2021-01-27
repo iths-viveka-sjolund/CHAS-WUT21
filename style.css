@@ -32,7 +32,7 @@ nav a {
   text-decoration: none;
   color: white;
   font-weight: bold;
-  padding: 2rem;
+  padding: 30px;
   transition: color 0.5s;
 }
 
@@ -125,7 +125,7 @@ li {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 5%;
+  padding: 20px;
   border-top: 2px solid #964560;
 }
 
@@ -154,7 +154,7 @@ li {
 
 .kontakt {
   background-color: white;
-  padding: 2.5rem;
+  padding: 30px;
   margin-top: 50px;
   width: 100%;
   display: flex;
@@ -285,20 +285,21 @@ footer a {
   font-size: 20px;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 576px) {
   nav {
-    padding-right: none;
+    padding-right: 0;
     justify-content: center;
     align-items: center;
   }
 
   nav a {
-    padding: 1rem;
+    padding: 15px;
   }
 
   .kompetenser {
     background-image: none;
     flex-direction: column;
+    background-color: rgb(46, 46, 46);
     align-items: center;
     padding: 0;
   }
@@ -386,7 +387,11 @@ footer a {
   .kontakt {
     flex-direction: column;
     margin: 0;
-    padding: 1rem;
+    padding: 20px;
+  }
+
+  .kontakt img {
+    display: none;
   }
 
   #email,
