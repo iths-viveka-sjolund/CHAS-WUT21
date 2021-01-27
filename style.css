@@ -62,9 +62,6 @@ a {
   text-decoration: none;
   color: white;
 }
-a:active {
-  background-color: darkblue;
-}
 
 ul {
   padding: 0;
@@ -81,7 +78,8 @@ li {
   max-width: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   display: flex;
   justify-content: flex-start;
 }
@@ -96,8 +94,6 @@ li {
 .kompetenser li {
   list-style: none;
   font-family: "DM Serif Text", serif;
-  color: rgb(255, 255, 255);
-  background-color: grey;
   padding: 10px 0 10px 20px;
   margin: 5%;
   line-height: 150%;
@@ -259,6 +255,12 @@ label:focus-within {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: rgb(232, 232, 232);
+}
+
+.divider {
+  text-align: center;
+  padding: 10%;
 }
 
 .bilder img {
