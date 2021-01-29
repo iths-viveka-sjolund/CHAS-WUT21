@@ -107,6 +107,18 @@ li {
   display: none;
 }
 
+.jarallax > .jarallax-img {
+  position: absolute;
+  object-fit: cover;
+  font-family: "object-fit: cover;";
+  left: 0;
+  z-index: -1;
+}
+
+.jarallax img {
+  display: block;
+}
+
 /* ----------- ARBETE --------- */
 
 .arbete {

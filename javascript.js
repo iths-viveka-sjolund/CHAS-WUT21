@@ -36,3 +36,7 @@ function sendFeedback(){
    thankYouHeader.innerText = 'Tack' + ' ' + namn.value + ', ' +'ditt meddelande har skickats.';
 
 }
+
+// jarallax(document.querySelector('.jarallax'), {
+//   speed: 0.3,
+// });
