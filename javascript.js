@@ -32,11 +32,7 @@ function validateForm(event) {
 }
 
 function sendFeedback(){
-      var thankYouHeader = document.getElementById("thankYou");
+      var thankYouHeader = document.getElementById('thankYou');
    thankYouHeader.innerText = 'Tack' + ' ' + namn.value + ', ' +'ditt meddelande har skickats.';
 
 }
-
-// jarallax(document.querySelector('.jarallax'), {
-//   speed: 0.3,
-// });

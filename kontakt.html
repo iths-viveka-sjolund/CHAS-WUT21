@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kontakta Viveka Sjölund">
     <title>Kontakta mig</title>
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
@@ -22,19 +23,18 @@
                     <h1>Kontakt</h1>
                     <p>Här kan du kontakta mig. Fyll i formuläret så svarar jag dig så fort jag kan.</p>
                     <p>Mestadels på vardagar mellan 09.00-17.00.</p>
-                    <img src="img/brev.jpg" alt="">
             </article>
                         
             <div>
                 <form>
-                        <label for="name">Ditt namn</label>
+                        <label for="namn">Ditt namn</label>
                         <input type="text" class="namn">
                         <p class="namnText"></p>
                         <label for="email">Din e-post</label>
                         <input type="email" class="email">
                         <p class="emailText"></p>
                         <label for="message-ruta">Ditt meddelande</label>
-                        <textarea id="message-ruta"></textarea>
+                        <textarea class="message-ruta"></textarea>
                         <button class="myButton">SKICKA</button>
                 </form>
                 <p id="thankYou"></p>
@@ -47,6 +47,7 @@
         <a href="#">Gå till toppen av sidan</a>
     </div>
 </footer>
+<!-- JS funkar inte om det ligger i head för att formuläret måste läsas in före javascriptet.  -->
 <script src="javascript.js"></script>
 </body>
 </html>
